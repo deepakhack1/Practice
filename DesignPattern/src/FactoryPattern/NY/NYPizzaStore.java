@@ -14,9 +14,7 @@ public class NYPizzaStore extends PizzaStore {
 		System.out.println(type);
 		
 		if(type == "Cheese") {
-			
 			return new NYStyleCheesePizza();
-		
 		}
 		else
 		{

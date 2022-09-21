@@ -6,7 +6,7 @@ public class Runner {
 	
 	public static void main(String args[]) {
 
-		System.out.println("HELLO");
+	
 		
 	PizzaStore nyPizza = new NYPizzaStore();
 	System.out.println(nyPizza);
