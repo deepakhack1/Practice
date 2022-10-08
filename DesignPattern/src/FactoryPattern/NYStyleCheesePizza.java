@@ -1,8 +1,10 @@
-package FactoryPattern;
+package src.FactoryPattern;
+
+import src.FactoryPattern.Pizza;
 
 import java.util.Arrays;
 
-public class NYStyleCheesePizza extends Pizza{
+public class NYStyleCheesePizza extends Pizza {
 	
 	public NYStyleCheesePizza()
 	{

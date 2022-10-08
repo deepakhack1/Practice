@@ -1,4 +1,4 @@
-package FactoryPattern;
+package src.FactoryPattern;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,19 +9,19 @@ public abstract class Pizza {
 	String sauce;
 	List<String> toppings = new ArrayList<>();
 	
-	 void prepare() {
+	 public void prepare() {
 		 System.out.println("preparing");
 	 }
 
-	 void bake() {
+	 public void bake() {
 		 System.out.println("bake");
 	 }
 
-	void cut() {
+	public void cut() {
 		System.out.println("cut");
 	}
 
-	 void box() {
+	 public void box() {
 		 System.out.println("box"); 
 	 }
 	 

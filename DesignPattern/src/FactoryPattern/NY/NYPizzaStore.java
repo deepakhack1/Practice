@@ -1,8 +1,8 @@
 package FactoryPattern.NY;
 
 import FactoryPattern.NYStyleCheesePizza;
-import FactoryPattern.Pizza;
 import FactoryPattern.PizzaStore;
+import src.FactoryPattern.Pizza;
 
 public class NYPizzaStore extends PizzaStore {
 	
