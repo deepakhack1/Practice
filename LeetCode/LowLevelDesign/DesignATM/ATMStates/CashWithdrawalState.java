@@ -31,6 +31,9 @@ public class CashWithdrawalState extends ATMState {
             CashWithdrawProcessor withdrawProcessor =
                     new TwoThousandWithdrawProcessor(new FiveHundredWithdrawProcessor(new OneHundredWithdrawProcessor(null)));
 
+//            CashWithdrawProcessor withdrawProcessor =
+//                    new OneHundredWithdrawProcessor(new FiveHundredWithdrawProcessor(new TwoThousandWithdrawProcessor(null)));
+
             withdrawProcessor.withdraw(atmObject, withdrawalAmountRequest);
             exit(atmObject);
         }

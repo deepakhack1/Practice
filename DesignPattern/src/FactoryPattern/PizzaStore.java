@@ -1,6 +1,5 @@
 package FactoryPattern;
 
-import src.FactoryPattern.Pizza;
 
 public abstract class PizzaStore {
 	

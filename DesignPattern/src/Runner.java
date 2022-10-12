@@ -1,8 +1,8 @@
-package src;
 
+import FactoryPattern.Pizza;
 import FactoryPattern.PizzaStore;
 import FactoryPattern.NY.NYPizzaStore;
-import src.FactoryPattern.Pizza;
+
 
 public class Runner {
 	
