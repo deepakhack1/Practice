@@ -16,6 +16,7 @@ public abstract class CashWithdrawProcessor {
     public void withdraw(ATM atm, int remainingAmount) {
 
         if (nextCashWithdrawalProcessor != null) {
+            System.out.println(nextCashWithdrawalProcessor);
             nextCashWithdrawalProcessor.withdraw(atm, remainingAmount);
         }
     }

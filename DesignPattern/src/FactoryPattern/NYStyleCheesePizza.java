@@ -1,6 +1,5 @@
-package src.FactoryPattern;
+package FactoryPattern;
 
-import src.FactoryPattern.Pizza;
 
 import java.util.Arrays;
 

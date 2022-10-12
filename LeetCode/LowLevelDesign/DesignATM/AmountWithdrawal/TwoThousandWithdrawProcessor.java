@@ -11,8 +11,10 @@ public class TwoThousandWithdrawProcessor extends CashWithdrawProcessor {
 
     public void withdraw(ATM atm, int remainingAmount) {
 
-       int required =  remainingAmount/2000;
-       int balance = remainingAmount%2000;
+
+
+       int required =  remainingAmount/2000; // 1
+       int balance = remainingAmount%2000;   // 800
 
        if(required <= atm.getNoOfTwoThousandNotes()) {
            atm.deductTwoThousandNotes(required);
