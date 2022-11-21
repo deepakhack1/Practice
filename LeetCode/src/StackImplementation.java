@@ -1,10 +1,10 @@
-class Stack{
+class Stack1{
 	
 	private int capacity;
 	private int top;
 	private int[] array;
 	
-	Stack(int capacity){
+	Stack1(int capacity){
 		this.array = new int[capacity];
 		this.capacity = capacity;
 		this.top = -1;
@@ -42,7 +42,7 @@ public class StackImplementation {
 
 	public static void main(String[] args) {
 		
-		Stack stack = new Stack(10);
+		Stack1 stack = new Stack1(10);
 		stack.pull();
 		stack.push(10);
 		stack.print();
